@@ -1,0 +1,66 @@
+/* 
+  ================================================ 
+  ================= Início Header================= 
+  ================================================ 
+*/
+.layout-cabecalho {
+  height: 60px;
+
+  border-bottom: 1px solid var(--light-gray);
+  background-color: var(--white);
+  z-index: 1;
+}
+.layout-cabecalho--fixo {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+/* 
+  ================================================ 
+  ================= Principal ==================== 
+  ================================================ 
+*/
+.layout-principal {
+  margin-top: 60px;
+  background-color: var(--light-green);
+}
+
+/* 
+  ================================================ 
+  ================= Depoimento ==================== 
+  ================================================ 
+*/
+.layout-depoimento {
+  background-color: var(--light-gray);
+}
+
+/* 
+  ================================================ 
+  ================= Início Planos================= 
+  ================================================ 
+*/
+.layout-planos {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, auto));
+  gap: 15px;
+
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+/* 
+  ================================================ 
+  ================= Início Assinatura============= 
+  ================================================ 
+*/
+.layout-assinatura {
+  padding: 40px 0;
+}
+/* 
+  ================================================ 
+  ================= Início Footer================= 
+  ================================================ 
+*/
+.layout-footer {
+  background-color: var(--black);
+}

@@ -1,0 +1,55 @@
+@media screen and (min-width: 769px) {
+  .assinatura__titulo {
+    font-size: 2em;
+  }
+}
+@media screen and (max-width: 768px) {
+  .navegacao__menu-classic {
+    display: none;
+  }
+  .navegacao__menu-hamburguer {
+    display: inline-block;
+  }
+  .banner-principal {
+    font-size: 1.2rem;
+  }
+  .depoimento {
+    font-size: 3rem;
+  }
+  .planos {
+    grid-template-columns: 1fr;
+  }
+}
+@media screen and (max-width: 425px) {
+  .banner-principal {
+    font-size: 1.2rem;
+  }
+  .depoimento {
+    font-size: 2rem;
+  }
+  .depoimento__avatar img {
+    width: 150px;
+  }
+}
+@media screen and (max-width: 375px) {
+  .banner-principal {
+    font-size: 1rem;
+  }
+  .depoimento {
+    font-size: 1.8rem;
+  }
+}
+@media screen and (max-width: 320px) {
+  .banner-principal {
+    font-size: 0.9rem;
+  }
+  .layout-principal {
+    padding: 0 6px;
+  }
+  .layout-planos {
+    padding: 0 6px;
+  }
+  .depoimento {
+    font-size: 1.8rem;
+  }
+}

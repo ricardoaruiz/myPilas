@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- <link rel="stylesheet" href="css/reset.css" /> -->
+    <!-- <link rel="stylesheet" href="css/normalize.css" /> -->
+    <link rel="stylesheet" href="css/bootstrap-grid.min.css" />
+    <link rel="stylesheet" href="css/base.css" />
+    <link rel="stylesheet" href="css/layout.css" />
+    <link rel="stylesheet" href="css/componentes.css" />
+    <link rel="stylesheet" href="css/media-queries.css" />
+    <title>My Pilas</title>
+  </head>
+  <body>
+    <header class="layout-cabecalho layout-cabecalho--fixo">
+      <nav class="navegacao container">
+        <div class="navegacao__logo">
+          <img src="imagens/logo.png" alt="My Pilas" />
+        </div>
+
+        <!-- Classic menu -->
+        <div class="navegacao__menu-classic">
+          <ul class="navegacao__menu-classic-items">
+            <li><a href="#">Como funciona</a></li>
+            <li><a href="#planos">Planos e preços</a></li>
+            <li><a href="#">Contato</a></li>
+          </ul>
+          <button
+            class="navegacao__menu-classic-login mp-botao mp-botao--login"
+          >
+            Login
+          </button>
+        </div>
+
+        <!-- Hamburguer menu -->
+        <div class="navegacao__menu-hamburguer">
+          <div class="navegacao__menu-hamburguer-icone js-hamburguer">
+            <div
+              class="navegacao__menu-hamburguer-icone-linha js-hamburguer-icone-linha"
+            ></div>
+            <div
+              class="navegacao__menu-hamburguer-icone-linha js-hamburguer-icone-linha"
+            ></div>
+            <div
+              class="navegacao__menu-hamburguer-icone-linha js-hamburguer-icone-linha"
+            ></div>
+          </div>
+
+          <div
+            class="navegacao__menu-hamburguer-items navegacao__menu-hamburguer-items--hidden js-hamburguer-menu-items"
+          >
+            <ul>
+              <li class="js-hamburguer-menu-item">
+                <a href="#">Como funciona</a>
+              </li>
+              <li class="js-hamburguer-menu-item">
+                <a href="#planos">Planos e preços</a>
+              </li>
+              <li class="js-hamburguer-menu-item"><a href="#">Contato</a></li>
+            </ul>
+            <button
+              class="navegacao__menu-hamburguer-login mp-botao mp-botao--login"
+            >
+              Login
+            </button>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <!-- Principal -->
+    <section class="layout-principal">
+      <div class="container">
+        <article class="banner-principal">
+          <h1 class="banner-principal__titulo">
+            As finanças da sua<br />
+            empresa em ordem
+          </h1>
+          <p class="banner-principal__descricao">
+            Software de gestão simples e prático para pequenos negócios
+          </p>
+          <a
+            href="#planos"
+            class="banner-principal__conheca mp-botao mp-botao--principal"
+            >Conheça os planos</a
+          >
+        </article>
+      </div>
+    </section>
+
+    <!-- Depoimentos -->
+    <section class="layout-depoimento">
+      <div class="container">
+        <div class="depoimento">
+          <blockquote class="depoimento__texto">
+            Eu tinha perdido totalmente o controle da minha empresa. Depois que
+            comecei a usar o MyPilas, me sinto muito mais organizado e confiante
+            no futuro.
+          </blockquote>
+
+          <div class="depoimento__avatar">
+            <img src="imagens/joao-da-silva.jpg" alt="Joao da Silva" />
+            <p>João da Silva</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Planos -->
+    <section id="planos" class="container layout-planos">
+      <!-- Plano 1 -->
+      <article class="plano">
+        <header class="plano__navegacao">Autônomo</header>
+
+        <h3 class="plano__preco">R$59/mês</h3>
+
+        <ul class="plano__caracteristicas">
+          <li>Até <strong>2 usuários</strong></li>
+          <li><strong>500MB</strong> de armazenamento</li>
+          <li>Lançamentos ilimitados</li>
+          <li>Acesso seguro</li>
+          <li>Sem fidelidade</li>
+        </ul>
+
+        <footer class="plano__rodape">
+          <a
+            href="assine.html"
+            class="plano__assinar mp-botao mp-botao--assinar"
+          >
+            Assinar
+          </a>
+        </footer>
+      </article>
+
+      <!-- Plano 2 -->
+      <article class="plano plano--destaque">
+        <header class="plano__navegacao">Micro</header>
+
+        <h3 class="plano__preco">R$89/mês</h3>
+
+        <ul class="plano__caracteristicas">
+          <li>Até <strong>5 usuários</strong></li>
+          <li><strong>1GB</strong> de armazenamento</li>
+          <li>Lançamentos ilimitados</li>
+          <li>Acesso seguro</li>
+          <li>Sem fidelidade</li>
+        </ul>
+
+        <footer class="plano__rodape">
+          <a
+            href="assine.html"
+            class="plano__assinar mp-botao mp-botao--assinar"
+          >
+            Assinar
+          </a>
+        </footer>
+      </article>
+
+      <!-- Plano 3 -->
+      <article class="plano">
+        <header class="plano__navegacao">Pequena</header>
+
+        <h3 class="plano__preco">R$99/mês</h3>
+
+        <ul class="plano__caracteristicas">
+          <li>Até <strong>10 usuários</strong></li>
+          <li><strong>5GB</strong> de armazenamento</li>
+          <li>Lançamentos ilimitados</li>
+          <li>Acesso seguro</li>
+          <li>Sem fidelidade</li>
+        </ul>
+
+        <footer class="plano__rodape">
+          <a
+            href="assine.html"
+            class="plano__assinar mp-botao mp-botao--assinar"
+          >
+            Assinar
+          </a>
+        </footer>
+      </article>
+    </section>
+
+    <!-- Footer -->
+    <footer class="layout-footer">
+      <div class="container">
+        <div class="rodape">
+          <p>&copy; MyPilas. Todos os direitos reservados</p>
+        </div>
+      </div>
+    </footer>
+    <script lang="javascript" src="js/menu.js"></script>
+  </body>
+</html>
